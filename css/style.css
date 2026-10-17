@@ -1,0 +1,233 @@
+/* COMMON PART START */
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  a{
+    text-decoration: none;
+    display: inline-block;
+  }
+  *{
+    font-family: "Poppins", sans-serif;
+  }
+
+  ul{
+    list-style: none;
+  }
+  img{
+    vertical-align: middle;
+  }
+  /* COMMON PART END */
+  /* NAVBAR PART START */
+
+  .nav_logo{
+    width: 9.5rem;
+  }
+  .mybtn{
+    border: .1rem solid #DFFE02 !important;
+    background-color: #DFFE02;
+    padding: .5rem 1.6rem;
+  }
+  .mybtn:hover{
+    background: transparent;
+    color:#DFFE02 !important;
+  }
+  .nav-link{
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    color: #fff;
+  
+  }
+  .nav-link::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 0;
+    height: 2px;
+    background:#DFFE02;
+    transition: 0.3s;
+    bottom: 0;
+  }
+  .nav-link .active::after,
+  .nav-link:hover::after{
+   width: 100%;
+  }
+  .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") ;
+    width:3rem;
+  }
+  /* NAVBAR PART END */
+  /* BANNER PART START */
+  #banner{
+    /* min-height: 85rem; */
+    padding: 90px 0;
+  }
+ 
+  .image-container{
+    width: 25.5rem;
+    /* aspect-ratio: 1; */
+    height: 25.5rem;
+    border-radius: 50%;
+    border-top: 1rem solid #fff;
+    border-bottom: 1rem solid #fff;
+    background-image: url(../images/myimage3.png);
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 1rem white, inset 0 0 1rem white,
+    0 0 2rem #DFFE02,
+    inset 0 0 2rem #DFFE02,
+    0 0 7rem #DFFE02,
+    inset 0 0 2rem #DFFE02;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+ h1{
+    font-size: 3.5rem;
+  }
+  p{
+    font-size:.95rem ;
+    color: #f3cece;
+  }
+ .para{
+  max-width: 400px;
+ }
+  /* BANNER PART END */
+  /* ABOUT PART START */
+ #about{
+  padding: 150px 0;
+ } 
+.about_left{
+  width: 18rem;
+  /* aspect-ratio: 1; */
+  height: 20rem;
+  border-radius: 50%;
+  background-image: url(../images/about_img.png);
+  background-position: center;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  
+}
+.about_right h2{
+  color: #DFFE02;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 74px;
+}
+.about_right h5{
+  color: #FFFFFF;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+.about_right p{
+  color: #f3cece;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-size: 12px;
+ 
+}
+.glow{
+  position: relative;
+
+}
+.glow::before{
+  position: absolute;
+  content: '';
+  inset: 4rem;
+  background-color: #DFFE02;
+  border-radius: 50%;
+  z-index: -1;
+  filter: blur(70px);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-filter: blur(70px);
+}
+
+  /* ABOUT PART END */
+  /* SERVICE PART START */
+#service{
+  padding: 130px 0;
+}
+.bgcolur{
+  background-color: gray;
+}
+
+.text_Colur{
+  color: #DFFE02;
+}
+.icon_color{
+  color: #DFFE02;
+}
+
+.hover_card:hover{
+   background-color: #DFFE02;  
+}
+.hover_card:hover *{
+  color: black !important;
+}
+
+  /* SERVICE PART END */
+  /* PORTFOLIO PART START */
+ #portfolio{
+  padding: 150px 0;
+ }
+
+.port_cards{
+  background-color:darkblue;
+}
+.port_cards:hover{
+  width: 15rem;
+  transform: transform .5s ease-in-out;
+  -webkit-transform: transform .5s ease-in-out;
+  -moz-transform: transform .5s ease-in-out;
+  -ms-transform: transform .5s ease-in-out;
+  -o-transform: transform .5s ease-in-out;
+}
+
+/* PORTFOLIO PART END */
+
+/*BLOG PART START  */
+#blog{padding: 150px 0;
+}
+/*BLOG PART END  */
+/* CONTACT PART START */
+#contact{
+  padding: 70px 0;
+}
+.con_body{
+  background-color: #DFFE02;
+}
+.con_body{
+  width: 33rem;
+}
+.form-control{
+  border: .1rem solid #DFFE02;
+}
+.form-control:focus{
+  box-shadow: none;
+  border: .1rem solid #DFFE02;
+}
+
+/* CONTACT PART START */
+/* FOOTER PART START */
+.line{
+  background: gray;
+  height: .1rem;
+  width: 100%;
+}
+.ftext{
+  color: #DFFE02;
+}
+.ftext1{
+  font-size: 12px;
+}
+/* FOOTER PART END */

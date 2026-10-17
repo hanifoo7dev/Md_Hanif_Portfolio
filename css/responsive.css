@@ -1,0 +1,10 @@
+@media screen and (max-width: 680px){
+    h1{
+        font-size: 2.8rem;
+    }
+}
+@media screen and (max-hight:680px){
+    .image-container{
+        margin-bottom: 5rem;
+    }
+}
